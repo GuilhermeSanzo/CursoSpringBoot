@@ -1,7 +1,5 @@
 package io.github.guilhermesanzo.arquiteturaspring.montadora;
 
-public enum TipoMotor {
-    ASPIRADO,
-    TURBO,
-    ELETRICO
+public record CarroStatus(String mensagem) {
+
 }
